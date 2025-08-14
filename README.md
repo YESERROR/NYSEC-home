@@ -2,7 +2,6 @@
 
 develop
 ```shell
-cd nysec
 pnpm install
 pnpm run dev
 ```
