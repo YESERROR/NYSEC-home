@@ -69,7 +69,7 @@ const groups = [
     year: 21,
     members: [
       {
-        name: '王曦',
+        name: '哥布林神经',
         skill: '渗透神中神,超级神的那种',
         avatar: new URL('../assets/Members/王总.png', import.meta.url).href,
         description: '王总yyds，保时捷富哥，月入100w。'

@@ -24,3 +24,11 @@ const router = createRouter({
 })
 
 export default router
+router.beforeEach((to, _, next) => {
+    if (to.path === '/about') {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = '';
+    }
+    next();
+});

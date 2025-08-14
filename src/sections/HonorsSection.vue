@@ -6,7 +6,6 @@
         <span class="beside-span">Honor Course</span>
         <p class="p-muted">历年比赛成绩与重要里程碑。</p>
       </RevealOnScroll>
-
       <div class="honor-grid" style="margin-top:18px">
         <RevealOnScroll v-for="(yearGroup, year, index) in groupedHonors" :key="year" :delay="index*90">
           <div class="year-card">

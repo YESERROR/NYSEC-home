@@ -1,9 +1,13 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div id="app">
     <AnimatedNavbar />
-    <transition name="route-fade" mode="out-in">
-      <router-view />
-    </transition>
+    <router-view v-slot="{ Component }">
+      <transition name="route-fade" mode="out-in">
+        <keep-alive>
+          <component :is="Component" />
+        </keep-alive>
+      </transition>
+    </router-view>
     <footer class="fd-logo">
       <a href="#">
         <img :src="whiteLogo" alt="" style="width: 100px">
