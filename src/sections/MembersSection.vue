@@ -72,20 +72,26 @@ const groups = [
         name: '哥布林神经',
         skill: '渗透神中神,超级神的那种',
         avatar: new URL('../assets/Members/王总.png', import.meta.url).href,
-        description: '王总yyds，保时捷富哥，月入100w。'
+        description: '二次元爱好者王曦 '
       },
-      {
-        name: 'p001water',
-        skill: 'web,内网研究，开发大佬',
-        avatar: new URL('../assets/Members/p001water.jpg', import.meta.url).href,
-        description: '博客：https://p001water.github.io/'
-      },
+      // {
+      //   name: 'p001water',
+      //   skill: 'web,内网研究，开发大佬',
+      //   avatar: new URL('../assets/Members/p001water.jpg', import.meta.url).href,
+      //   description: '博客：https://p001water.github.io/'
+      // },
       {
         name: '12edamancy',
         skill: 'web，漂亮学姐',
         avatar: new URL('../assets/Members/12edamancy.jpg', import.meta.url).href,
         description: '某音知名博主&nbsp;&nbsp;&nbsp;'
       },
+      {
+        name:'cyberangel',
+        skill: 'pwn',
+        avatar: new URL('../assets/Members/cyberangel.jpg', import.meta.url).href,
+        description: '开山鼻祖,博客：https://www.yuque.com/cyberangel/rg9gdm'
+      }
     ]
   },
   {
@@ -140,9 +146,9 @@ const groups = [
       },
       {
         name: '雪落无痕',
-        skill: 'Crypto / 算法',
+        skill: 'Crypto / 算法 / 取证',
         avatar: new URL('../assets/Members/雪落无痕.jpg', import.meta.url).href,
-        description: '掌管flag的神'
+        description: '掌管flag的神。公众号：Crypto Travel Notes'
       },
       {
         name: 'Obito',
@@ -154,13 +160,13 @@ const groups = [
         name: 'Aotem',
         skill: 'Reverse / C++高端开发攻城狮',
         avatar: new URL('../assets/Members/Aotem.jpg', import.meta.url).href,
-        description: '逆的了程序，却逆不了你的心'
+        description: '逆向高手，能逆向你的心。b站：https://space.bilibili.com/287827696'
       },
       {
         name: '是天天天天谷音',
-        skill: 'Web / 云音科技CEO',
+        skill: 'Web / 二次员',
         avatar: new URL('../assets/Members/汉武帝.jpg', import.meta.url).href,
-        description: '云音科技，伴你相随。股票代码：000001'
+        description: '原神，启动'
       },
       {
         name: '十二',
