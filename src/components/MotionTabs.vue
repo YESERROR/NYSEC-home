@@ -93,7 +93,7 @@ const selectedTab = ref(props.tabs[0])
 
           <!-- 图片内容 -->
           <div v-else-if="selectedTab.type === 'image'" class="image-content">
-            <img src="../assets/poster.png" alt="Tab image">
+            <img src="../assets/poster.png" alt="NYSEC{Welcome_to_nyist.This_is_web_first_step}">
           </div>
 
         </motion.div>

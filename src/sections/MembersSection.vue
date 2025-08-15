@@ -66,6 +66,17 @@ import RevealOnScroll from '../components/RevealOnScroll.vue'
 
 const groups = [
   {
+    year:19,
+    members: [
+      {
+        name:'cyberangel',
+        skill: 'pwn / 开山鼻祖 / 祖师爷',
+        avatar: new URL('../assets/Members/cyberangel.jpg', import.meta.url).href,
+        description: '博客：https://www.yuque.com/cyberangel/rg9gdm'
+      }
+    ]
+  },
+  {
     year: 21,
     members: [
       {
@@ -84,13 +95,7 @@ const groups = [
         name: '12edamancy',
         skill: 'web，漂亮学姐',
         avatar: new URL('../assets/Members/12edamancy.jpg', import.meta.url).href,
-        description: '某音知名博主&nbsp;&nbsp;&nbsp;'
-      },
-      {
-        name:'cyberangel',
-        skill: 'pwn',
-        avatar: new URL('../assets/Members/cyberangel.jpg', import.meta.url).href,
-        description: '开山鼻祖,博客：https://www.yuque.com/cyberangel/rg9gdm'
+        description: '某音知名博主'
       }
     ]
   },
@@ -117,9 +122,9 @@ const groups = [
       },
       {
         name: 'FightnvrGP',
-        skill: '开发大佬，运维大哥',
+        skill: '开发大佬 / 运维大哥',
         avatar: new URL('../assets/Members/FightnvrGP.jpg', import.meta.url).href,
-        description: '。。。。。。'
+        description: '代码有雷就算了，注释还撒谎。'
       },
       {
         name: 'Raining',
@@ -189,13 +194,13 @@ const groups = [
         name: '十万伏特',
         skill: '一只Web狗',
         avatar: new URL('../assets/Members/十万伏特.jpg', import.meta.url).href,
-        description: '别眨眼，我要跑路了'
+        description: '别眨眼，我要删库跑路了'
       },
       {
         name: '假设的人',
         skill: '核动力驴 / 运维狗',
         avatar: new URL('../assets/Members/me.png', import.meta.url).href,
-        description: '平台坏了别找我'
+        description: '我找妈祖问过了，说保我平台三年平安'
       },
       {
         name: '白恩',
@@ -275,14 +280,5 @@ function closeMember() {
   100% {
     transform: scale(1);
   }
-}
-
-.fade-zoom-enter-active, .fade-zoom-leave-active {
-  transition: all 0.3s ease;
-}
-
-.fade-zoom-enter-from, .fade-zoom-leave-to {
-  opacity: 0;
-  transform: scale(0.8);
 }
 </style>
